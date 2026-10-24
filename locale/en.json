@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Model Prompts",
+    "description": "Give each model its own system prompt. A profile is matched against the current model id and injected through the official system-prompt seam, with a Settings panel for editing the rules."
+  }
+}

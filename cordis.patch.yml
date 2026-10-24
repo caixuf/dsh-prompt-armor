@@ -1,0 +1,20 @@
+# dsh-prompt-armor bundle patch
+#
+# The Host half loads through this insert. The id must be unique within the
+# profile, or the loader reports a duplicate entry id and refuses to start.
+#
+# The top level MUST be a YAML array. Written as a mapping (`bundle:` /
+# `insert:` at the root) the loader rejects the file outright with:
+#   Error: overlay .../cordis.patch.yml must be a top-level YAML array of
+#   loader patch entries
+#
+# `dshHomePath` is exposed to Loader config expressions by the Host, so the
+# profile directory resolves under the same $DSH_HOME the running host uses.
+- insert:
+    - id: dsh-prompt-armor
+      name: 'dsh-prompt-armor'
+      config:
+        enabled: true
+        dataDir: !!js dshHomePath('prompt-armor')
+        order: -100000
+        showProfileName: true

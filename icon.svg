@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Model Prompts">
+  <defs>
+    <linearGradient id="armor-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4c6ef5" />
+      <stop offset="1" stop-color="#2b3ea8" />
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="url(#armor-bg)" />
+  <path
+    d="M32 13 L47 19 V32 C47 41 40.5 47.5 32 51 C23.5 47.5 17 41 17 32 V19 Z"
+    fill="none"
+    stroke="#ffffff"
+    stroke-width="3"
+    stroke-linejoin="round"
+    opacity="0.95"
+  />
+  <path
+    d="M25 32 L30 37 L40 26"
+    fill="none"
+    stroke="#ffffff"
+    stroke-width="4"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>
