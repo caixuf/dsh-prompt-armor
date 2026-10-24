@@ -19,7 +19,8 @@
     "icon.svg",
     "cordis.patch.yml",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "examples"
   ],
   "keywords": [
     "dsh",
